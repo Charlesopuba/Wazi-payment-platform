@@ -5,10 +5,12 @@ html{
     margin: 0;
     padding: 0;
 }
-header{
-    text-align: center;
+body{
+    font-family:'Merriweather', serif;;
+    background-image: url(https://images.unsplash.com/photo-1526546655954-48891cfaafcc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+    
+    
 }
-
 .navbar{
     display: flex;
     align-items: center;
@@ -28,8 +30,26 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #555;
+    color:black;
+    font-weight: bolder;
 }
 p{
-    color: #555;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.column{
+    flex-basis: 50%;
+    min-width: 300px;
 }
