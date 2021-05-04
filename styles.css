@@ -6,11 +6,10 @@ html{
     padding: 0;
 }
 body{
-    font-family:'Merriweather', serif;;
-    background-image: url(https://images.unsplash.com/photo-1526546655954-48891cfaafcc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
-    
-    
+    background-image: url(https://images.unsplash.com/photo-1592839930500-3445eb72b8ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
 }
+
+
 .navbar{
     display: flex;
     align-items: center;
@@ -23,10 +22,12 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
+    
 }
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    
 }
 a{
     text-decoration: none;
