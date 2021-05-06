@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+
+
+}
+body{
+    
+    background: #f3f3f3;
+    background-image: url(img/istockphoto-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #667DB6;
+    
+
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 blue;
+
+
+}
+.wrapper .left{
+    width: 52%;
+    background: #667DB6;
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+.wrapper .left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.wrapper .left h4{
+    margin-bottom: 10px;
+    
+}
+
+.wrapper .left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.wrapper .left p{
+   font-size: 12px;
+
+}
+
+.wrapper .right{
+    width: 700px;
+    height: 700px; ;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+.wrapper .right .info,
+.wrapper .right .projects{
+    margin: 25px;
+
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+
+}
+.wrapper .right .info h3,
+.wrapper .right .projects_data{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.wrapper .right .info h3, .data,
+.wrapper .right .projects_data .data{
+    width: 45%;
+
+}
+
+.wrapper .right .info h3, .data, h4,
+.wrapper .right .projects_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+
+
+
+}
+.wrapper .right .info h3, .data p,
+.wrapper .right .projects_data .data p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+.options{
+  background-color: teal;
+  position: absolute;
+  top: 0%;
+  color:;
+  
